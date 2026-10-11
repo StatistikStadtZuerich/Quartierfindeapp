@@ -1,0 +1,96 @@
+{
+  "input": {
+    "action_button": 1,
+    "input_1-adresse": "Napfgasse 6",
+    "results_1-table_main__reactable__page": 1,
+    "results_1-table_main__reactable__pageSize": 9,
+    "results_1-table_main__reactable__pages": 1,
+    "results_1-table_main__reactable__selected": null,
+    "results_1-table_main__reactable__sorted": null
+  },
+  "output": {
+    "results_1-quartierspiegel_link": {
+      "html": "<p>\n  <a href=\"https://www.stadt-zuerich.ch/de/politik-und-verwaltung/statistik-und-daten/publikationen-und-dienstleistungen/publikationen/quartierspiegel/quartier-011.html\" target=\"_blank\">\n    Mehr zu diesem Quartier erfahren\n    <svg fill=\"none\" viewBox=\"0 0 24 24\" style=\"height:1em;position:relative;display:inline-block;top:.1em;\" xmlns=\"http://www.w3.org/2000/svg\">\n      <g clip-path=\"url(#a)\">\n        <path fill=\"currentColor\" d=\"M10 6v2H5v11h11v-5h2v6a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1zm11-3v8h-2V6.413l-7.793 7.794-1.414-1.414L17.585 5H13V3z\"><\/path>\n      <\/g>\n      <defs>\n        <clipPath id=\"a\">\n          <path fill=\"currentColor\" d=\"M0 0h24v24H0z\"><\/path>\n        <\/clipPath>\n      <\/defs>\n    <\/svg>\n  <\/a>\n<\/p>",
+      "deps": [
+
+      ]
+    },
+    "results_1-stadtplan_link": {
+      "html": "<p>\n  <a href=\"https://www.maps.stadt-zuerich.ch/zueriplan3/Stadtplan.aspx?adresse=Napfgasse%206&amp;selectedObject=adr1027127&amp;toggleScreen=1\" target=\"_blank\">\n    Stadtplan an dieser Adresse öffnen \n    <svg fill=\"none\" viewBox=\"0 0 24 24\" style=\"height:1em;position:relative;display:inline-block;top:.1em;\" xmlns=\"http://www.w3.org/2000/svg\">\n      <g clip-path=\"url(#a)\">\n        <path fill=\"currentColor\" d=\"M10 6v2H5v11h11v-5h2v6a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1zm11-3v8h-2V6.413l-7.793 7.794-1.414-1.414L17.585 5H13V3z\"><\/path>\n      <\/g>\n      <defs>\n        <clipPath id=\"a\">\n          <path fill=\"currentColor\" d=\"M0 0h24v24H0z\"><\/path>\n        <\/clipPath>\n      <\/defs>\n    <\/svg>\n  <\/a>\n<\/p>",
+      "deps": [
+
+      ]
+    },
+    "results_1-table_main": {
+      "x": {
+        "tag": {
+          "name": "Reactable",
+          "attribs": {
+            "data": {
+              "Ortsbezeichnung": [
+                "Postleitzahl",
+                "Stadtkreis",
+                "Quartier",
+                "Statistisches Quartier",
+                "Wahlkreis",
+                "Schulkreis",
+                "Evangelischer Kirchenkreis",
+                "Evangelische Kirchengemeinde",
+                "Römisch katholische Kirchengemeinde"
+              ],
+              "Wert": [
+                "8001",
+                "1",
+                "Altstadt",
+                "Rathaus",
+                "1 + 2",
+                "Zürichberg",
+                "Zürich 1",
+                "Zürich",
+                "Liebfrauen"
+              ]
+            },
+            "columns": [
+              {
+                "id": "Ortsbezeichnung",
+                "name": "Merkmal",
+                "type": "character"
+              },
+              {
+                "id": "Wert",
+                "name": "Angabe",
+                "type": "character"
+              }
+            ],
+            "defaultPageSize": 9,
+            "className": "table-striped",
+            "dataKey": "24d0d5343f67a52a936c9d9760ec78d8",
+            "static": false
+          },
+          "children": [
+
+          ]
+        },
+        "class": "reactR_markup"
+      },
+      "evals": [
+
+      ],
+      "jsHooks": [
+
+      ],
+      "deps": [
+
+      ]
+    },
+    "results_1-title": {
+      "html": "<h1>Die Adresse «Napfgasse 6» befindet sich hier:<\/h1>",
+      "deps": [
+
+      ]
+    }
+  },
+  "export": {
+
+  }
+}
